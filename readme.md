@@ -1,3 +1,3 @@
 **GOOGLE HOMEPAGE PROJECT**
 
-*Here is a project that use my HTML and CSS skills.*
+*Here is a project that demonstrate my HTML and CSS skills.*

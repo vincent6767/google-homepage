@@ -15,16 +15,29 @@
   font: 16px arial, sans-serif;
 }
 #search-form {
-  margin-top: 30px;
+  width: 40%;
+  margin: 20px auto;
+  box-shadow: 2px 2px 4px .5px rgba(0, 0, 0, 0.16);
+  border: .5px solid #ddd;
 }
 #search-input {
-  height: 35px;
-  width: 465px;
+  line-height: 40px;
+  width: 85%;
   outline: none;
-  border: .5px solid #ddd;
-  box-shadow: 2px 2px 4px .5px rgba(0, 0, 0, 0.16);
-  padding: 2px 5px 2px 16px;
-  border-radius: 2px;
-  position: relative;
-  left: -25px;
+  border: none;
+  font-size: 1.3em;
+}
+#buttons-area {
+  width: 40%;
+  margin: auto;
+}
+.main-button {
+  margin: auto 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  border-style: none;
+  font-weight: bold;
+  color: #222235;
 }
