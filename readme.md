@@ -1,3 +1,3 @@
 **GOOGLE HOMEPAGE PROJECT**
 
-*Here is a project that demonstrate my HTML and CSS skills.*
+It is a project from *The Odin Project* that exercise our skills on elements placement, get styled, and aligned. 

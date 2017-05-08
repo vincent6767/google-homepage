@@ -6,6 +6,9 @@
 a {
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 #main {
     text-align: center;
     margin-top: 200px;
@@ -90,9 +93,6 @@ li a {
   color: #666;
   text-align: center;
   padding: 14px 16px;
-}
-li a:hover {
-  text-decoration: underline;
 }
 .clear {
   clear: both;
