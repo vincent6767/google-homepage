@@ -1,11 +1,17 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: arial, sans-serif;
 }
-
+a {
+  text-decoration: none;
+}
 #main {
     text-align: center;
     margin-top: 200px;
+}
+#main-logo {
+  padding-left: 50px;
 }
 #logo-subtext {
   position: relative;
@@ -36,8 +42,87 @@
   padding: 10px;
   background-color: #f2f2f2;
   font-size: 14px;
-  font-family: arial, sans-serif;
   border-style: none;
   font-weight: bold;
-  color: #222235;
+  color: #757575;
+}
+#g-microphone img {
+  vertical-align: middle;
+}
+/* Header */
+#header {
+  font-size: 0.9em;
+  line-height: 10px;
+  position: relative;
+  top: 10px;
+}
+/* Footer */
+.nav-bar {
+  background-color: #F2F2F2;
+}
+#footer {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9em;
+  line-height: 10px;
+  border-top: 1px solid #e4e4e4;
+}
+
+/* Navigation bar style */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav.nav-left {
+  float: left;
+}
+nav.nav-right {
+  float: right;
+}
+nav li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+}
+li a:hover {
+  text-decoration: underline;
+}
+.clear {
+  clear: both;
+}
+
+#google-apps {
+  background: url('http://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-position: -132px -38px;
+  vertical-align: middle;
+}
+#notification {
+  background: url('http://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-position: -210px 5px;
+  background-size: 528px 68px;
+}
+#profile {
+  padding-top: 0;
+}
+span#profile-pic {
+  display: block;
+  border-radius: 50%;
+  background-image: url('https://lh3.googleusercontent.com/-kDm59KfTh_Q/AAAAAAAAAAI/AAAAAAAAAAA/AHalGhqgG4yfAuGbh_952ODTTJECELcBfw/s32-c-mo/photo.jpg');
+  background-size: 32px 32px;
+  height: 32px;
+  width: 32px;
+}
+#g-offers {
+  position: relative;
+  top: 20px;
+}
+#g-offers p {
+  font-size: 0.8em;
 }

@@ -6,9 +6,18 @@
     <link href="../css/homepage.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <header>
-      <!-- Navigation bar -->
-    </header>
+    <div id="header">
+      <nav class="nav-right">
+        <ul>
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li><a href="#" id="google-apps" title="Google apps"></a></li>
+          <li><a id="notification" href="#" title="99 notifications"></a></li>
+          <li><a href="#" id="profile"><span id="profile-pic"></span></a></li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    </div>
     <div id="main">
       <div id="main-logo">
         <img src="../resources/images/rsz_google.png" alt="google logo">
@@ -18,7 +27,7 @@
         <form action="#" method="get">
           <div id="search-form">
             <input type="text" name="q" id="search-input">
-            <img src="../resources/images/rsz_1google_microphone_logo.png">
+            <span id="g-microphone"><img src="../resources/images/rsz_1google_microphone_logo.png"></span>
           </div>
           <div id="buttons-area">
             <button class="main-button">Google Search</button>
@@ -26,9 +35,30 @@
           </div>
         </form>
       </div>
+      <div id="g-offers">
+        <p id="text-g-offers">
+          Google.co.id offered in: <a href="#">Indonesia</a> <a href="#">Basa Jawa</a> <a href="#">Basa Bali</a>
+        </p>
+      </div>
     </div>
-    <footer>
+    <div class="nav-bar" id="footer">
       <!-- Footer -->
-    </footer>
+      <nav class="nav-left">
+        <ul>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <nav class="nav-right">
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Use Google.com</a></li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    </div>
   </body>
 </html>
